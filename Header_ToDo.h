@@ -1,5 +1,5 @@
-#ifndef TODO
-#define TODO
+#ifndef List
+#define List
 
 
 using std::string;
@@ -8,7 +8,7 @@ using std::int16_t;
 static int positionInList = 0;
 static int listSize = 0;
 
-struct MyToDo
+struct Mylist
 {
 	string description;
 	int priority;
